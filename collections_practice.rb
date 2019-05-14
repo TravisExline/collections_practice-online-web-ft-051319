@@ -56,4 +56,9 @@ def sum_array(array)
 end
 
 def add_s(array)
+  array.collect do |element|
+    if array[1] != element
+      element << "s"
+    end
+  end
 end
