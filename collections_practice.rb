@@ -50,3 +50,6 @@ def find_a(array)
     name[0] == "a"
   end
 end
+
+def sum_array(array)
+end
