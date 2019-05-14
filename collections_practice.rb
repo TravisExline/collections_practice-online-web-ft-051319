@@ -24,12 +24,6 @@ end
 
 def sort_array_char_count(array)
   array.sort do |a, b|
-    if a = b
-      0
-    elsif a < b
-      1
-    elsif  a > b
-      -1
-    end
+    a.length <=> b.length
   end
 end
